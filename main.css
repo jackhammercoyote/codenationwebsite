@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos&display=swap');
+
+body {
+    background-image: url(images/background.jpg);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Orelega One', cursive;
+    text-align: left;
+    font-size: 50px;
+    color: white
+}
+
+h2 {
+    font-family: 'Patua One', cursive;
+    text-align: left;
+    font-size: 40px;
+    color: white
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Genos', sans-serif;
+    font-size: 30px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.main {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.box1 {
+    align-self: center;
+    width: max-content;
+}
+
+.box2 {
+    align-self: center;
+    width: max-content;
+}
+
+.box3 {
+    color: white;
+}
+
+.box4 {
+    align-self: left;
+    width: max-content;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.text {
+    font-family: 'Baloo 2', cursive;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+#oldlady {
+    width: 13%;
+}
+
+#knight {
+    width: 15%;
+}
+
+#lion {
+    width: 20%;
+}
+
+#phone {
+    width: 15%;
+}
+
+#princess {
+    width: 12%;
+}
+
+
+.contact a:link {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.contact a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.contact a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
